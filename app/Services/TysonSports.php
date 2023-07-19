@@ -8,7 +8,22 @@ use Illuminate\Support\Facades\Http;
 class TysonSports {
 
   static $SPORTS_IDS = [
-    "cricket" => 9
+    "football" => 1,
+    "basketball" => 2,
+    "baseball" => 3,
+    "hockey" => 4,
+    "tennis" => 5,
+    "handball" => 6,
+    "volleyball" => 7,
+    "rugby" => 8,
+    "cricket" => 9,
+    "snooker" => 10,
+    "beachfootball" => 11,
+    "badminton" => 12,
+    "pingpong" => 13,
+    "golf" => 14,
+    "Waterpolo" => 16,
+    "3x3basketball" => 21
   ];
 
   private $uri = '';
