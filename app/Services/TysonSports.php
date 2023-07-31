@@ -75,7 +75,7 @@ class TysonSports {
         $res = Http::withoutVerifying()->withHeaders($this->headers)->get (
           $this->altSvcUri . 'live-matches',
               $queryParams
-        )->json();
+        )->json()["data"];
       } else {
         $res = Http::withoutVerifying()->withHeaders($this->headers)->get(
           $this->uri . 'datashare/matchList',
