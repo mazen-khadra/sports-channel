@@ -9,7 +9,7 @@ class Matches extends Controller
 {
     public function index (
       Request $req, $sport = null, $leagueId = null,
-      $daysOffset = null, $useAltSvc = false
+      $daysOffset = null, $useAltSvc = null
     ) {
       $sport = $sport ?? $req->query('sport');
       $leagueId = $leagueId ?? $req->query('leagueId');
